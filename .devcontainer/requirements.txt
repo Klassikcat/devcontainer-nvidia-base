@@ -1,7 +1,10 @@
 numpy
 scikit-learn
 matplotlib
-tensorflow
 autokeras
 ipykernel
 regex
+jax
+torch
+lightning
+omegaconf
