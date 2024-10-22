@@ -4,7 +4,3 @@ matplotlib
 autokeras
 ipykernel
 regex
-jax
-torch
-lightning
-omegaconf
