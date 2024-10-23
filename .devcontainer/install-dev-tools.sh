@@ -24,6 +24,8 @@ apt-get install libcudnn8-dev=8.9.0.*-1+cuda12.3
 apt-get install zlib1g g++ freeglut3-dev \
     libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev libfreeimage-dev -y
 # clean up
+apt-get install sudo
+python3 -m pip install uv 
 pip3 cache purge
 apt-get autoremove -y
 apt-get clean
