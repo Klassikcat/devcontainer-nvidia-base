@@ -3,6 +3,7 @@
   "image": "glcr.b-data.ch/jupyterlab/cuda/python/base", 
   "runArgs": [
     "--gpus=all",
+    "--user root",
     "-e GRANT_SUDO=yes"
   ],
   "settings": {
