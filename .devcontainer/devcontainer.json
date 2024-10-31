@@ -2,7 +2,8 @@
   "name": "CUDA",
   "image": "glcr.b-data.ch/jupyterlab/cuda/python/base", 
   "runArgs": [
-    "--gpus=all"
+    "--gpus=all",
+    "GRANT_SUDO=yes"
   ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
