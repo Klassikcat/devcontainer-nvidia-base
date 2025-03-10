@@ -19,8 +19,6 @@
     "UV_SYSTEM_PYTHON": "1"
   },
   "postCreateCommand": [
-    "nvidia-smi",
-    "&&",
     "marimo edit"
   ]
 }
