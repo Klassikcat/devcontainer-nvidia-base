@@ -8,10 +8,9 @@ python3 -m venv .venv
 . .venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install uv
-pip install -r .devcontainer/requirements.txt
+uv pip install -r .devcontainer/requirements.txt
 # clean up
 apt-get install sudo
-python3 -m pip install uv 
 pip3 cache purge
 apt-get autoremove -y
 apt-get clean
