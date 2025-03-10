@@ -7,7 +7,7 @@ apt-get install software-properties-common wget curl \
 python3 -m venv .venv
 . .venv/bin/activate
 python3 -m pip install --upgrade pip
-python3 -m pip install uv
+pip install uv
 uv pip install -r .devcontainer/requirements.txt
 # clean up
 apt-get install sudo
