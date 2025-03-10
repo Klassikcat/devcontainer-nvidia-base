@@ -19,6 +19,6 @@
     "UV_SYSTEM_PYTHON": "1"
   },
   "postCreateCommand": [
-    "marimo edit"
+    "./install-dev-tools.sh && marimo edit"
   ]
 }
