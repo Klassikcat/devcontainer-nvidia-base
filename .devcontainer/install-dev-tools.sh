@@ -4,8 +4,6 @@ apt-get update
 apt-get install software-properties-common wget curl \
     python3-dev python3-pip python3-wheel python3-setuptools git gh -y
 # install Python packages
-python3 -m venv .venv
-. .venv/bin/activate
 python3 -m pip install --upgrade pip
 pip install uv
 uv pip install -r .devcontainer/requirements.txt
