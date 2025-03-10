@@ -16,7 +16,7 @@
     "PATH": "${containerEnv:PATH}:/usr/local/cuda/bin",
     "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64",
     "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/usr/local/cuda",
-    "UV_SYSTEM_PYTHON": 1
+    "UV_SYSTEM_PYTHON": "1"
   },
   "postCreateCommand": [
     "nvidia-smi",
