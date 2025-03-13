@@ -8,4 +8,4 @@ jax
 torch
 lightning
 omegaconf
-jupyterlab
+ipykernel
