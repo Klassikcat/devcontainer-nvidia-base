@@ -6,7 +6,7 @@ apt-get install software-properties-common wget curl \
 # install Python packages
 python3 -m pip install --upgrade pip
 python3 -m venv .venv
-. .venv/bin/activate
+source .venv/bin/activate
 pip install uv
 uv pip install -r .devcontainer/requirements.txt
 # clean up
