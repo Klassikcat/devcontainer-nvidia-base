@@ -1,6 +1,6 @@
 {
   "name": "CUDA",
-  "image": "glcr.b-data.ch/jupyterlab/cuda/python/base:3-devtools-docker-root", 
+  "image": "glcr.b-data.ch/jupyterlab/cuda/python/base:3-devtools-docker-root",
   "runArgs": [
     "--gpus=all",
     "-e NB_USER=root",
@@ -18,6 +18,12 @@
     "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/usr/local/cuda"
   },
   "postCreateCommand": [
-    "nvidia-smi"
+    "/bin/bash .devcontainer/install_devpod_dependencies.sh"
+  ],
+  "extensions": [
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "mlops-club.bentoml",
+    "ms-python.python",
+    "aykutsarac.jsoncrack-vscode"
   ]
 }
